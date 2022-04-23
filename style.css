@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    background-image: url("img/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: rgba(255, 255, 255, 0.5);
+    height: 50vh;
+    
+}
