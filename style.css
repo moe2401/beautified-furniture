@@ -1,28 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    color: #5e2200;
+}
+
 .container{
-    width: 80%;
     margin: auto;
+}
+
+nav{
+    margin: 10px;
 }
 
 ul{
     display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+
     
 }
 
-li{
-    list-style: none;
-}
 
 main{
     background-image: url("img/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background: rgba(255, 255, 255, 0.5);
     height: 50vh;
+    width: 100%;
+    
+}
+
+#bg{
+    background: rgba(255, 255, 255, 0.25);
+    height: 100%;
+
+
+}
+
+
+
+main h1{
+    text-align: center;padding-top: 50px;
+    font-family: 'Zen Antique', serif;
+    
     
 }
