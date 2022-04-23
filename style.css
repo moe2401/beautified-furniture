@@ -34,21 +34,55 @@ main{
     background-position: center;
     height: 50vh;
     width: 100%;
-    
+   
 }
 
 #bg{
     background: rgba(255, 255, 255, 0.25);
     height: 100%;
 
-
 }
-
-
 
 main h1{
     text-align: center;padding-top: 50px;
-    font-family: 'Zen Antique', serif;
-    
-    
+    font-family: 'Zen Antique', serif;   
 }
+
+.work-section{
+    padding: 20px;
+}
+
+#work h2, p{
+    text-align: center;
+    padding: 10px;
+}
+
+#work-img{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+#work-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------media----------------- */
+@media (min-width: 500px){
+    #work-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+}
+
